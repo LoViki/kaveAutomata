@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'DSEG7';
+    /* src: url('/fonts/DSEG7Classic-Regular.woff2') format('woff2'),
+         url('/fonts/DSEG7Classic-Regular.woff') format('woff'); */
+    /* src: url('/fonts/DSEG7Modern-Regular.woff2') format('woff2'),
+         url('/fonts/DSEG7Modern-Regular.woff') format('woff'); */
+    src: url('/fonts/DSEG14ModernMini-Regular.woff2') format('woff2'),
+         url('/fonts/DSEG14ModernMini-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+main{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+h1{
+    margin: 10px;
+    font-size: 20px;
+}
+
+h6{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border: none;
+    border-radius: 12px; */
+    /* width: 90%;
+    margin: auto; */
+}
+
+#gombok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+#action{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#kavek{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.kivalasztott{
+    background-color: tomato;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#rendeles{
+    background-color: lightgreen;
+}
+
+#egyenlegsor{
+    width: 100%;
+}
+
+
+.egyenlegsor {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 10px;
+    /* background: #ffd6e7;           világos rózsaszín háttér */
+    background: #d6e7ff;           /* világos kék háttér */
+    /* color: #ff0000;                piros szöveg */
+    color: #0000ff;                /* kék szöveg */
+    /* font-family: 'Digital-7', 'Segment7', monospace; */
+    font-family: 'DSEG7', monospace;
+    font-size: 1rem;
+    /* padding: 10px 20px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: -10px; */
+    padding: 10px;
+    letter-spacing: 3px;
+    /* display: inline-block; */
+    display: block;
+
+    text-shadow:
+        0 0 5px #4d4dff,
+        0 0 10px #0000ff,
+        0 0 15px #0000ff;
+        /* 0 0 5px #ff4d4d,
+        0 0 10px #ff0000,
+        0 0 15px #ff0000; */
+    /* border: 2px solid #ff8fab; */ /*rózsaszín border*/ 
+    border: 2px solid #8fabff; /* kék border */ 
+    border-radius: 10px;
+}
+
+#egyenleg {
+    font-weight: bold;
+}
+
+#uzenet{
+    width: 92%;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
